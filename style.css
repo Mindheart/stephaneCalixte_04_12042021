@@ -15,6 +15,10 @@ h1.text-center.hero-bloc-text.tc-white1 {
   font-family: "Sansita Swashed";
   color: #292929;
   font-size: 1em;
+  margin: 0;
+}
+.tc-white1 {
+  color: red;
 }
 
 /* ============================================================================== */
@@ -236,12 +240,10 @@ a:hover {
 .l-bloc .divider-h span {
   border-color: rgba(0, 0, 0, 0.1);
 }
-<!--
-  ===============================Changement===============================================
-  --
-  > .d-bloc
-  .panel
-  .a-btn,
+
+/* ===============================Changement=============================================== */
+
+.d-bloc .panel .a-btn,
 .l-bloc .a-btn,
 .l-bloc .navbar a,
 .l-bloc .navbar-brand,
@@ -319,6 +321,7 @@ a:hover {
 /* ========================changement========== */
 .navbar-brand {
   display: flex;
+  /* align-items: center; */
   height: auto;
   padding: 3px 15px;
   font-size: 25px;
@@ -340,11 +343,12 @@ a:hover {
 .nav-center .navbar-brand img {
   margin: 0;
 }
-
+/* =========================changement================== */
 .navbar .nav {
   padding-top: 2px;
   margin-right: -16px;
   float: right;
+  right: 150px;
   z-index: 1;
 }
 
@@ -352,6 +356,7 @@ a:hover {
   float: left;
   margin-top: 4px;
   font-size: 16px;
+  list-style: none;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -557,10 +562,10 @@ button {
   opacity: 0;
   z-index: 500;
   transition: all 0.3s ease-in-out;
-  -webkit-transition: ;
-  -moz-transition: ;
-  -ms-transition: ;
-  -o-transition: ;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
 }
 
 .scrollToTop span {
@@ -703,6 +708,7 @@ a {
   font-family: "helvetica";
   font-weight: 400;
   color: #171717 !important;
+  text-decoration: none;
 }
 
 .container {
@@ -807,11 +813,11 @@ h4 {
   background-color: rgba(165, 147, 99, 0.7);
   padding: 40px 40px 40px 40px;
 }
-
-.bold-link {
+/* ========================changement==================== */
+/* .bold-link {
   font-weight: 900;
   text-decoration: underline !important;
-}
+} */
 
 .bgc-white {
   background-color: #ffffff;
