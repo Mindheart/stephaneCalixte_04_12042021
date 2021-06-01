@@ -17,9 +17,27 @@ h1.text-center.hero-bloc-text.tc-white1 {
   font-size: 1em;
   margin: 0;
 }
-.tc-white1 {
-  color: red;
+form#form_1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
 }
+.col-sm-61 p {
+  text-align: center;
+}
+.col-sm-61 {
+  display: flex;
+  justify-content: center;
+}
+.keywords {
+  color: #ffffff;
+}
+/* .form-group {
+  width: 370px;
+  display: flex;
+  flex-direction: column;
+} */
 
 /* ============================================================================== */
 
@@ -259,6 +277,7 @@ a:hover {
 .l-bloc h6 a,
 .l-bloc p a {
   /* color: rgba(0, 0, 0, 0.6); */
+  color: #ffffff;
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -547,8 +566,10 @@ button {
 .panel-rd .panel-footer {
   border-radius: 0 0 29px 29px;
 }
-
+/* ======================changement=================== */
 .form-control {
+  display: flex;
+  width: 360px;
   border-color: rgba(0, 0, 0, 0.1);
   box-shadow: none;
 }
@@ -710,10 +731,10 @@ a {
   color: #171717 !important;
   text-decoration: none;
 }
-
-.container {
+/* ===============Changement============== */
+/* .container {
   max-width: 1000px;
-}
+} */
 
 .hero-bloc-text {
   font-size: 38px;
@@ -793,7 +814,7 @@ h4 {
 }
 /* ======================================changement================ */
 .white {
-  color: #0d0d0d !important;
+  color: #ffffff !important;
 }
 
 .portfolio-thumb {
@@ -808,9 +829,10 @@ h4 {
 .avatar {
   box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
 }
-
+/* ==================changement====================== */
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  /* background-color: rgba(165, 147, 99, 0.7); */
+  background-color: #364577;
   padding: 40px 40px 40px 40px;
 }
 /* ========================changement==================== */
@@ -821,23 +843,27 @@ h4 {
 
 .bgc-white {
   background-color: #ffffff;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .bgc-dark-slate-blue {
   background-color: #364577;
 }
-
+/* ====================changement couleur======================= */
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #364577;
+  display: flex;
+  justify-content: center;
 }
 /* =====================changement color========================== */
 .tc-white {
-  color: white !important;
+  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine {
-  background: #f3976c;
-  color: #1f1f1f !important;
+  background: #364577;
+  color: #ffffff !important;
 }
 
 .btn-atomic-tangerine:hover {
