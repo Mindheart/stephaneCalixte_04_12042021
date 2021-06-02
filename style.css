@@ -33,6 +33,10 @@ form#form_1 {
 .keywords {
   color: #ffffff;
 }
+/* img.img-responsive.portfolio-thumb {
+  width: 270px;
+  height: 270px;
+} */
 /* .form-group {
   width: 370px;
   display: flex;
@@ -353,6 +357,8 @@ a:hover {
   max-height: 200px;
   margin: 0 5px 0 0;
   display: inline;
+  width: 35px;
+  height: 40px;
 }
 
 .navbar-brand img[src$="svg"] {
@@ -1121,5 +1127,89 @@ h4 {
 @media (max-width: 767px) {
   .bloc-mob-center-text {
     text-align: center;
+  }
+}
+/* ================================changement=================== */
+
+@media (min-width: 575px) {
+  span.img-responsive.portfolio-thumb1 {
+    width: 270px;
+    height: 270px;
+    background-image: url(/img/1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 270px 270px;
+  }
+}
+@media (min-width: 280px) {
+  span.img-responsive.portfolio-thumb1 {
+    width: 570px;
+    height: 270px;
+    background-image: url(/img/1-570.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 570px 270px;
+  }
+}
+@media (min-width: 575px) {
+  span.img-responsive.portfolio-thumb2 {
+    width: 270px;
+    height: 270px;
+
+    background-image: url(/img/2.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 270px 270px;
+  }
+}
+@media (min-width: 280px) {
+  span.img-responsive.portfolio-thumb2 {
+    width: 570px;
+    height: 270px;
+
+    background-image: url(/img/2-570.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 570px 270px;
+  }
+}
+@media (min-width: 575px) {
+  span.img-responsive.portfolio-thumb3 {
+    width: 270px;
+    height: 270px;
+    background-image: url(/img/3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 270px 270px;
+  }
+}
+@media (min-width: 280px) {
+  span.img-responsive.portfolio-thumb3 {
+    width: 570px;
+    height: 270px;
+    background-image: url(/img/3-570.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 570px 270px;
+  }
+}
+@media (min-width: 575px) {
+  span.img-responsive.portfolio-thumb4 {
+    width: 270px;
+    height: 270px;
+    background-image: url(/img/4.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 270px 270px;
+  }
+}
+@media (min-width: 280px) {
+  span.img-responsive.portfolio-thumb4 {
+    width: 570px;
+    height: 270px;
+    background-image: url(/img/4-570.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 570px 270px;
   }
 }

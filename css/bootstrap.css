@@ -8081,11 +8081,13 @@ button.close {
 .row:after {
   clear: both;
 }
-
+/* ====================changement=================== */
 .center-block {
   display: block;
   margin-right: auto;
   margin-left: auto;
+  width: 100px;
+  height: 100px;
 }
 
 .pull-right {
