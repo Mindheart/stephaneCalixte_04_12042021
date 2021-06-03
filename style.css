@@ -42,6 +42,14 @@ form#form_1 {
   display: flex;
   flex-direction: column;
 } */
+.container.bloc-lg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.form-group {
+  width: 100%;
+}
 
 /* ============================================================================== */
 
@@ -102,7 +110,7 @@ a:hover {
 .bloc-sm {
   padding: 20px 50px;
 }
-
+/* ====================change================== */
 .bg-center,
 .bg-l-edge,
 .bg-r-edge,
@@ -113,10 +121,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-  -webkit-background-size: auto !important;
+  /* -webkit-background-size: auto !important;
   -moz-background-size: auto !important;
   -o-background-size: auto !important;
-  background-size: auto !important;
+  background-size: auto !important; */
 }
 
 .bg-repeat {
@@ -344,7 +352,8 @@ a:hover {
 /* ========================changement========== */
 .navbar-brand {
   display: flex;
-  /* align-items: center; */
+  /* justify-content: center;
+  align-items: center; */
   height: auto;
   padding: 3px 15px;
   font-size: 25px;
@@ -354,7 +363,7 @@ a:hover {
 }
 
 .navbar-brand img {
-  max-height: 200px;
+  /* max-height: 200px; */
   margin: 0 5px 0 0;
   display: inline;
   width: 35px;
@@ -830,6 +839,8 @@ h4 {
 .portfolio-row {
   margin-bottom: 44px;
   margin-top: 50px;
+  margin: 0;
+  width: 100%;
 }
 
 .avatar {
@@ -908,10 +919,13 @@ h4 {
 
 .bg-banniere {
   background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-size: contain;
+  background-size: 2460px 364px;
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.bmp");
+  background-image: url("img/image-de-presentation.jpg");
+  background-size: cover;
 }
 
 @media (max-width: 1024px) {
@@ -1052,7 +1066,7 @@ h4 {
   }
   .navbar-brand img {
     max-height: 40px;
-    width: auto;
+    width: 30px;
   }
   .nav-invert .navbar-header {
     float: none;
@@ -1130,86 +1144,226 @@ h4 {
   }
 }
 /* ================================changement=================== */
-
-@media (min-width: 575px) {
+@media (min-width: 180px) {
   span.img-responsive.portfolio-thumb1 {
-    width: 270px;
-    height: 270px;
+    width: 100%;
+    height: 140px;
     background-image: url(/img/1.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 270px 270px;
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb2 {
+    width: 100%;
+    height: 140px;
+    background-image: url(/img/2.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb3 {
+    width: 100%;
+    height: 140px;
+    background-image: url(/img/3.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb4 {
+    width: 100%;
+    height: 140px;
+    background-image: url(/img/4.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
   }
 }
 @media (min-width: 280px) {
   span.img-responsive.portfolio-thumb1 {
-    width: 570px;
+    width: 100%;
     height: 270px;
-    background-image: url(/img/1-570.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 570px 270px;
+    background-image: url(/img/1.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
   }
-}
-@media (min-width: 575px) {
   span.img-responsive.portfolio-thumb2 {
-    width: 270px;
+    width: 100%;
     height: 270px;
 
     background-image: url(/img/2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 270px 270px;
+    background-size: cover;
+    background-size: 100% 100%;
   }
-}
-@media (min-width: 280px) {
-  span.img-responsive.portfolio-thumb2 {
-    width: 570px;
-    height: 270px;
-
-    background-image: url(/img/2-570.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 570px 270px;
-  }
-}
-@media (min-width: 575px) {
   span.img-responsive.portfolio-thumb3 {
-    width: 270px;
+    width: 100%;
     height: 270px;
     background-image: url(/img/3.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 270px 270px;
+    background-size: cover;
+    background-size: 100% 100%;
   }
-}
-@media (min-width: 280px) {
-  span.img-responsive.portfolio-thumb3 {
-    width: 570px;
-    height: 270px;
-    background-image: url(/img/3-570.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 570px 270px;
-  }
-}
-@media (min-width: 575px) {
   span.img-responsive.portfolio-thumb4 {
-    width: 270px;
+    width: 100%;
     height: 270px;
     background-image: url(/img/4.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 270px 270px;
+    background-size: cover;
+    background-size: 100% 100%;
   }
 }
-@media (min-width: 280px) {
+@media (min-width: 375px) {
+  span.img-responsive.portfolio-thumb1 {
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/1-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb2 {
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/2-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb3 {
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/3-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
   span.img-responsive.portfolio-thumb4 {
-    width: 570px;
-    height: 270px;
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/4.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+}
+@media (min-width: 425px) {
+  span.img-responsive.portfolio-thumb1 {
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/1-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb2 {
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/2-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb3 {
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/3-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb4 {
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/4.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+}
+@media (min-width: 472px) {
+  span.img-responsive.portfolio-thumb1 {
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/1-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb2 {
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/2-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb3 {
+    background-image: url(/img/3-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb4 {
     background-image: url(/img/4-570.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 570px 270px;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-size: 100% 100%;
+  }
+}
+@media (min-width: 539px) {
+  span.img-responsive.portfolio-thumb1 {
+    background-image: url(/img/1-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb2 {
+    background-image: url(/img/2-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb3 {
+    background-image: url(/img/3-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb4 {
+    background-image: url(/img/4-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+}
+@media (min-width: 570px) {
+  span.img-responsive.portfolio-thumb1 {
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/1-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb2 {
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/2-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb3 {
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/3-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb4 {
+    width: 100%;
+    /* height: 270px; */
+    background-image: url(/img/4-570.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+}
+
+@media (min-width: 749px) {
+  span.img-responsive.portfolio-thumb1 {
+    background-image: url(/img/1.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb2 {
+    background-image: url(/img/2.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb3 {
+    background-image: url(/img/3.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
+  }
+  span.img-responsive.portfolio-thumb4 {
+    background-image: url(/img/4.jpg);
+    background-size: cover;
+    background-size: 100% 100%;
   }
 }

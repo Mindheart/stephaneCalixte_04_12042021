@@ -1,6 +1,8 @@
-* Bootstrap v3.3.5 (http://getbootstrap.com)
+/*!
+ * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
@@ -5300,6 +5302,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   .navbar-nav > li > a {
     padding-top: 15px;
     padding-bottom: 15px;
+    text-decoration: none;
   }
 }
 
@@ -8081,13 +8084,13 @@ button.close {
 .row:after {
   clear: both;
 }
-/* ====================changement=================== */
+
 .center-block {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  width: 100px;
   height: 100px;
+  width: 100px;
 }
 
 .pull-right {
