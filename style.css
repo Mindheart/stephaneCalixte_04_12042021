@@ -134,9 +134,9 @@ a:hover {
   background: repeat;
 }
 
-.bg-t-edge {
+/* .bg-t-edge {
   background: top no-repeat;
-}
+} */
 
 .bloc-bg-texture::before {
   content: "";
@@ -148,14 +148,14 @@ a:hover {
   right: 0;
 }
 /* ==========================changement===================== */
-.texture-paper::before {
+/* .texture-paper::before {
   background: url("img/texture-paper.png");
   background-size: 280px 280px;
-}
+} */
 
-.b-parallax {
+/* .b-parallax {
   background-attachment: fixed;
-}
+} */
 
 .d-bloc {
   color: rgba(255, 255, 255, 0.7);
@@ -191,7 +191,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  /* color: rgba(255, 255, 255, 0.6); */
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .d-bloc .a-btn:hover,
@@ -831,7 +831,7 @@ h4 {
 /* ======================================changement================ */
 .white {
   color: #1b1958 !important;
-  background-color: #f3976c;
+  /* background-color: #f3976c; */
 }
 
 .portfolio-thumb {
@@ -877,8 +877,8 @@ h4 {
 }
 /* =====================changement color========================== */
 .tc-white {
-  color: #1b1958 !important;
-  background-color: #f3976c;
+  color: #ffffff !important;
+  /* background-color: #f3976c; */
 }
 
 .btn-atomic-tangerine {
