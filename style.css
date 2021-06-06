@@ -23,13 +23,13 @@ form#form_1 {
   flex-direction: column;
   width: 80%;
 }
-.col-sm-61 p {
+/* .col-sm-61 p {
   text-align: center;
 }
 .col-sm-61 {
   display: flex;
   justify-content: center;
-}
+} */
 .keywords {
   color: #1b1958;
 }
@@ -50,8 +50,15 @@ form#form_1 {
 .form-group {
   width: 100%;
 }
+
+.center-block {
+  width: 100px;
+  height: 100px;
+}
+/* =======================changement=============== */
 img.img-responsive.portfolio-thumb {
   width: 100%;
+  height: 100%;
 }
 
 /* ============================================================================== */
@@ -364,11 +371,13 @@ a:hover {
   font-weight: 600;
   line-height: 44px;
 }
-
+/* =================resize image============== */
 .navbar-brand img {
   max-height: 200px;
   margin: 0 5px 0 0;
   display: inline;
+  width: 214px;
+  height: 40px;
 }
 
 .navbar-brand img[src$="svg"] {
