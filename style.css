@@ -66,7 +66,7 @@ img.img-responsive.portfolio-thumb {
 body {
   margin: 0;
   padding: 0;
-  background: #fff;
+  /* background: #fff; */
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -131,10 +131,10 @@ a:hover {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-  /* -webkit-background-size: auto !important;
+  -webkit-background-size: auto !important;
   -moz-background-size: auto !important;
   -o-background-size: auto !important;
-  background-size: auto !important; */
+  background-size: auto !important;
 }
 
 .bg-repeat {
@@ -154,18 +154,17 @@ a:hover {
   left: 0;
   right: 0;
 }
-/* ==========================changement===================== */
+/* =======================changement======================== */
 /* .texture-paper::before {
-  background: url("img/texture-paper.png");
-  background-size: 280px 280px;
+    background: url("img/texture-paper.png");
+    background-size: 280px 280px;
 } */
 
-/* .b-parallax {
+.b-parallax {
   background-attachment: fixed;
-} */
-
+}
 .d-bloc {
-  color: rgba(255, 255, 255, 0.7);
+  /* color: rgba(255, 255, 255, 0.7); */
 }
 
 .d-bloc button:hover {
@@ -257,11 +256,11 @@ a:hover {
   color: rgba(0, 0, 0, 0.7);
   border-color: rgba(0, 0, 0, 0.3);
 }
-
-.d-bloc .panel,
+/* ===================changement================== */
+/* .d-bloc .panel,
 .l-bloc {
   color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 .d-bloc .panel button:hover,
 .l-bloc button:hover {
@@ -757,9 +756,9 @@ a {
   text-decoration: none;
 }
 /* ===============Changement============== */
-/* .container {
+.container {
   max-width: 1000px;
-} */
+}
 
 .hero-bloc-text {
   font-size: 38px;
@@ -864,15 +863,13 @@ h4 {
   padding: 40px 40px 40px 40px;
 }
 /* ========================changement==================== */
-/* .bold-link {
+.bold-link {
   font-weight: 900;
   text-decoration: underline !important;
-} */
+}
 
 .bgc-white {
   background-color: #ffffff;
-  /* display: flex;
-  justify-content: center; */
 }
 
 .bgc-dark-slate-blue {
@@ -932,7 +929,7 @@ h4 {
 .bg-banniere {
   background-image: url("img/la-chouette-agence-banniere.jpg");
 }
-
+/* ==============changement============== */
 .bg-presentation {
   background-image: url("img/image-de-presentation.jpg");
   background-size: cover;
@@ -1074,10 +1071,11 @@ h4 {
     -webkit-box-shadow: none;
     box-shadow: none;
   }
-  /* .navbar-brand img {
+  .navbar-brand img {
     max-height: 40px;
-    width: 30px;
-  } */
+    width: auto;
+  }
+
   .nav-invert .navbar-header {
     float: none;
     width: 100%;
@@ -1153,215 +1151,3 @@ h4 {
     text-align: center;
   }
 }
-/* ================================changement=================== */
-/* @media (min-width: 180px) {
-  span.img-responsive.portfolio-thumb1 {
-    width: 100%;
-    height: 140px;
-    background-image: url(/img/1.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb2 {
-    width: 100%;
-    height: 140px;
-    background-image: url(/img/2.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb3 {
-    width: 100%;
-    height: 140px;
-    background-image: url(/img/3.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb4 {
-    width: 100%;
-    height: 140px;
-    background-image: url(/img/4.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-} */
-/* @media (min-width: 280px) {
-  span.img-responsive.portfolio-thumb1 {
-    width: 100%;
-    height: 270px;
-    background-image: url(/img/1.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb2 {
-    width: 100%;
-    height: 270px;
-
-    background-image: url(/img/2.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb3 {
-    width: 100%;
-    height: 270px;
-    background-image: url(/img/3.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb4 {
-    width: 100%;
-    height: 270px;
-    background-image: url(/img/4.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-} */
-/* @media (min-width: 375px) {
-  span.img-responsive.portfolio-thumb1 {
-    width: 100%;
-        background-image: url(/img/1-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb2 {
-    width: 100%;
-       background-image: url(/img/2-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb3 {
-    width: 100%;
-        background-image: url(/img/3-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb4 {
-    width: 100%;
-        background-image: url(/img/4.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-} */
-/* @media (min-width: 425px) {
-  span.img-responsive.portfolio-thumb1 {
-    width: 100%;
-      background-image: url(/img/1-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb2 {
-    width: 100%;
-       background-image: url(/img/2-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb3 {
-    width: 100%;
-      background-image: url(/img/3-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb4 {
-    width: 100%;
-    background-image: url(/img/4.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-} */
-/* @media (min-width: 472px) {
-  span.img-responsive.portfolio-thumb1 {
-    width: 100%;
-   
-    background-image: url(/img/1-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb2 {
-    width: 100%;
- 
-    background-image: url(/img/2-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb3 {
-    background-image: url(/img/3-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb4 {
-    background-image: url(/img/4-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-    background-size: 100% 100%;
-  }
-} */
-/* @media (min-width: 539px) {
-  span.img-responsive.portfolio-thumb1 {
-    background-image: url(/img/1-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb2 {
-    background-image: url(/img/2-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb3 {
-    background-image: url(/img/3-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb4 {
-    background-image: url(/img/4-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-} */
-/* @media (min-width: 570px) {
-  span.img-responsive.portfolio-thumb1 {
-    width: 100%;
-       background-image: url(/img/1-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb2 {
-    width: 100%;
-       background-image: url(/img/2-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb3 {
-    width: 100%;
-     background-image: url(/img/3-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb4 {
-    width: 100%;
-       background-image: url(/img/4-570.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-} */
-
-/* @media (min-width: 749px) {
-  span.img-responsive.portfolio-thumb1 {
-    background-image: url(/img/1.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb2 {
-    background-image: url(/img/2.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb3 {
-    background-image: url(/img/3.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-  span.img-responsive.portfolio-thumb4 {
-    background-image: url(/img/4.jpg);
-    background-size: cover;
-    background-size: 100% 100%;
-  }
-} */
