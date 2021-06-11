@@ -361,8 +361,6 @@ a:hover {
 /* ========================changement========== */
 .navbar-brand {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
   height: auto;
   padding: 3px 15px;
   font-size: 25px;
@@ -370,13 +368,10 @@ a:hover {
   font-weight: 600;
   line-height: 44px;
 }
-/* =================resize image============== */
 .navbar-brand img {
   max-height: 200px;
   margin: 0 5px 0 0;
   display: inline;
-  width: 214px;
-  height: 40px;
 }
 
 .navbar-brand img[src$="svg"] {
@@ -779,7 +774,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 .tight-width-whitespace {
