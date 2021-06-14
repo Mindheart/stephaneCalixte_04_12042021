@@ -78,11 +78,14 @@
       href="/img/la-chouette-agence-banniere.jpg"
     />
     <link rel="shortcut icon" type="image/png" href="favicon.jpg" />
-    <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    <!-- <link
       rel="preload"
-      as="style"
-    />
+      as="font"
+      type="font/ttf"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    /> -->
+    <link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 
     <link
       rel="stylesheet"
@@ -91,9 +94,15 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="preload" as="style" type="text/css" href="./css/et-line.css" />
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+    <!-- <link
+      rel="preload"
+      as="font"
+      type="font/eot"
+      href="../fonts/et-line.eot"
+      crossorigin
+    /> -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
 
     <title>La chouette agence:Vos spécialistes du web design à Lyon</title>
 
@@ -109,11 +118,6 @@
         <div class="container bloc-sm">
           <nav class="navbar row">
             <div class="navbar-header">
-              <!-- ==========================Changement======================= -->
-              <!-- <div class="keywords" style="color: #cccccc; font-size: 1px">
-                Agence web à paris, stratégie web, web design, illustrations,
-                design de site web, site web, web, internet, site internet, site
-              </div> -->
               <span class="navbar-brand">
                 <!-- ===================changement================= -->
                 <img
@@ -123,11 +127,6 @@
                   width="214"
                 />
               </span>
-              <!-- =========================changement============= -->
-              <!-- <div class="keywords" style="color: #cccccc; font-size: 1px">
-                Agence web à paris, stratégie web, web design, illustrations,
-                design de site web, site web, web, internet, site internet, site
-              </div> -->
               <!-- <button
                 id="nav-toggle"
                 type="button"
@@ -142,10 +141,6 @@
             </div>
             <!-- <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
               <ul class="site-navigation nav navbar-nav">
-                <li>
-                  <a href="index.html">Accueil</a>
-                </li>
-                <li></li>
                 <li>
                   <a href="page2.html">page2 &gt;</a>
                 </li>
@@ -180,6 +175,7 @@
                   img/logo.png   100w,
                   img/logo3.png  200w
                 "
+                sizes="100px"
                 alt="Logo la chouette agence"
               />
               <!-- ===============tc-white=================== -->
@@ -498,9 +494,8 @@
                 <div class="row row-no-gutters social">
                   <div class="col-sm-3">
                     <div class="text-center">
-                      <!-- ===============Modifier ajout attribut title========== -->
                       <a class="social" href="#" title="twiter"
-                        ><span class="fa fa-twitter icon-md"></span
+                        ><span class="fa fa-twitter icon-md"  ></span
                       ></a>
                     </div>
                   </div>
@@ -555,10 +550,5 @@
       crossorigin="anonymous"
     ></script>
     <script defer src="./js/blocs.js"></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.18/jquery.touchSwipe.min.js"
-      integrity="sha512-BNs09vwMdfabwyH36BehO8DJbV5S6RaO0vXqPqiMhYC8mZ4WsfwwPEVhMOl5D7gyrTSDDv98f3HgaOUDlFhywg=="
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
